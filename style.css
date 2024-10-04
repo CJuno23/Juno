@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30,54%,90%);
+    font-size: 16px;
+    font-family: Outfit;
+    line-height: 1.8;
+    font-weight: 400;
+}
+.wrapper {
+    max-width: 800px;
+    margin: 3rem auto;
+    background-color: hsl(0,0%,100%);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    height: auto;
+}
+.wrapper img {
+    width: 100%;
+}
+.wrapper h1 {
+    font-family: Young Serif;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.preparation-time {
+    background-color: hsl(330,100%,98%);
+    padding: 2rem;
+    margin: 2rem 0;
+}
+.preparation-time h3 {
+    color: hsl(332,51%,32%);
+}
+.preparation-time li {
+    margin-left: 1.5rem;
+    
+}
+.preparation-time li::marker {
+    color: hsl(332,51%,32%);
+}
+.ingredients {
+    margin: 2rem 0;
+}
+.ingredients h2 {
+    color: hsl(14,45%,36%);
+    font-family: Young Serif;
+    font-weight: 400;
+    
+}
+.ingredients li {
+    margin-left: 2rem;
+}
+.ingredients li::marker {
+    color: hsl(14,45%,36%);
+}
+.border {
+    border: none;
+    height: 1px;
+    background-color: rgb(204, 210, 214);
+}
+.instructions {
+    margin: 2rem 0;
+    
+}
+.instructions h2 {
+    color: hsl(14,45%,36%);
+    font-family: Young Serif;
+    font-weight: 400;
+}
+.instructions li {
+    margin-left: 1.8rem;
+    font-weight: 400;
+}
+.instructions li::marker {
+    color: hsl(14,45%,36%);
+    font-weight: 600;
+}
+.nutrition {
+    margin: 1rem 0;
+   
+}
+.nutrition h2 {
+    font-family: Young Serif;
+    color: hsl(14,45%,36%);
+    font-weight: 400;
+}
+.align strong {
+    font-weight: 600;
+}
+table {
+    border-collapse: collapse;
+    position: relative;
+    width: 100%;
+    
+}
+table tr {
+    border-bottom: 1px solid rgb(204,210,214);
+}
+th {
+    font-weight: 400;
+    text-align: left;
+    
+}
+td {
+    color: hsl(14,45%,36%);
+    font-weight: 700;  
+    position: absolute;
+    left: 300px;
+}
+table tr:last-child {
+    border-bottom: none;
+}
